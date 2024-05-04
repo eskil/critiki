@@ -10,6 +10,7 @@ defmodule Critiki.Application do
     children = [
       # Starts a worker by calling: Critiki.Worker.start_link(arg)
       # {Critiki.Worker, arg}
+      Critiki.Repo,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
