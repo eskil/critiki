@@ -10,8 +10,8 @@ defmodule Critiki.Repo.Migrations.CreateUnvisited do
       add :page_id, :string
       add :source_type, :string
       add :source_uuid, :uuid
+      add :wayback_url, :string
       add :visited_at, :naive_datetime
-      add :visit_notes, :text
 
       timestamps()
       soft_delete_columns()

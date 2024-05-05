@@ -1,6 +1,6 @@
 alias Critiki.Repo
-alias Critiki.Schemas.Pages
+alias Critiki.Schemas.Page
 
 {:ok, _} =
-  Pages.changeset(%Pages{}, %{type: "location", page_id: "tonga-room-san-francisco-162"})
+  Page.changeset(%Page{}, %{type: "location", page_id: "tonga-room-san-francisco-162"})
   |> Repo.insert
