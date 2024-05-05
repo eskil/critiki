@@ -25,6 +25,9 @@ defmodule Critiki.MixProject do
       {:ecto_sql, "~> 3.0"},
       {:postgrex, ">= 0.0.0"},
       {:ecto_soft_delete, "~> 2.0"},
+      {:tesla, "~> 1.9"},
+      {:hackney, "~> 1.20"},
+      {:floki, "~> 0.36.0"},
     ]
   end
 end
