@@ -38,3 +38,7 @@ be found at <https://hexdocs.pm/critiki>.
         IO.puts inspect entry
       end
 ```
+
+```
+mix run priv/scripts/location_parse.exs samples/location.html
+```
